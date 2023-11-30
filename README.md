@@ -4,9 +4,9 @@ The Union class is a versatile container object designed to hold values of one o
 
 ## Key Features
 
-- 🌐 **Type Flexibility:** Easily represent two different types within a single container.
-- ⚖️ **Functional Operations:** Leverage functional programming concepts with map, flatMap, and other operations.
-- 🧪 **Safe Retrieval:** Ensure safe retrieval of values with convenient methods to handle left and right values.
+- **Type Flexibility:** Easily represent two different types within a single container.
+- **Functional Operations:** Leverage functional programming concepts with map, flatMap, and other operations.
+- **Safe Retrieval:** Ensure safe retrieval of values with convenient methods to handle left and right values.
 
 ## Example Usage
 
