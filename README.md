@@ -1,8 +1,14 @@
 # Union Class
 
-A container object which will contain a value of one of two possible types. Instances of this class are either left or right. A left instance contains a value of type `T`, and a right instance contains a value of type `U`.
+The Union class is a versatile container object designed to hold values of one of two distinct types. Instances of this class can represent either a left value (`T`) or a right value (`U`). This provides a clean and concise way to handle scenarios where a result could be one of two possible types.
 
-## Usage
+## Key Features
+
+- 🌐 **Type Flexibility:** Easily represent two different types within a single container.
+- ⚖️ **Functional Operations:** Leverage functional programming concepts with map, flatMap, and other operations.
+- 🧪 **Safe Retrieval:** Ensure safe retrieval of values with convenient methods to handle left and right values.
+
+## Example Usage
 
 ### Creating Instances
 
@@ -39,6 +45,10 @@ Union<Integer, Integer> mappedUnion = leftUnion.mapLeft(Integer::length);
 // Applying a mapping function to the right value
 Union<String, String> mappedRightUnion = rightUnion.mapRight(String::valueOf);
 ```
+
+## Getting Started
+
+To integrate the Union class into your Java project, simply add the provided Java file to your source code.
 
 ## License
 
